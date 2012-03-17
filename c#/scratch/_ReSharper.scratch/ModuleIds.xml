@@ -1,5 +1,0 @@
-<Modules>
-  <Module PersistentId="6A8FF4AE-B964-4182-97C4-6A9278FF0C58" ModuleId="scratch" />
-  <Module PersistentId="8AD35411-F288-4E92-A183-300FA7D0D501" ModuleId="scratch.Tests" />
-  <Module PersistentId="3FA4AC54-1D78-4EED-9435-300CEC61058B" ModuleId="scratch.NHibernate" />
-</Modules>
