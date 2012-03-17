@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Jasmine Tests</title>
+    
+	<link rel="stylesheet" type="text/css" href="jasmine.css" />
+    
+	<script type="text/javascript" src="./../scripts/jquery.js"></script>
+    <script type="text/javascript" src="./../scripts/require.js"></script>
+    <script type="text/javascript" src="./../scripts/underscore.js"></script>
+
+	<script type="text/javascript" src="jasmine.js"></script>
+    <script type="text/javascript" src="jasmine-html.js"></script>
+    <script type="text/javascript" src="jasmine-jquery.js"></script>
+	
+	<!-- target scripts for testing -->
+    <script type="text/javascript" src="./../modules/klass.js"></script>
+	
+    <!-- specs for target script for testing -->    
+    <script type="text/javascript" src="klass_module_specs.js"></script>
+
+</head>
+<body>
+     <table>
+        <tr>
+            <td>
+                <div id="tests">
+                    <script type="text/javascript">
+                        $(document).ready(function () {
+                            _.defer(function () {
+                                setTimeout(function () {
+                                    jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+                                    jasmine.getEnv().execute();
+                                },
+                                1000);
+                            });
+                        });
+                    </script>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>Students</title>
+	<script src="./scripts/jquery.js" type="text/javascript"></script>
+	<script src="./scripts/require.js" type="text/javascript"></script>
+	<script src="./modules/students.js" type="text/javascript"></script>
+	<script src="./modules/klass.js" type="text/javascript"></script>
+</head>
+<body>
+	<h3>Math</h3>
+	<div id='mathStudents'></div>
+	<h3>Chemistry</h3>
+	<div id='chemistryStudents'></div>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var math = $('#mathStudents');
+		var chemistry = $('#chemistryStudents');
+		
+		require(['klass'], function(klass){
+			math.html(klass.getStudentRoster('math'));
+			chemistry.html(klass.getStudentRoster('chemistry'));
+		});
+	});
+</script>
+</html>
