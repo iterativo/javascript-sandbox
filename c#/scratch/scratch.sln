@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scratch.Tests", "scratch.Tests\scratch.Tests.csproj", "{8AD35411-F288-4E92-A183-300FA7D0D501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scratch.NHibernate", "scratch.NHibernate\scratch.NHibernate.csproj", "{3FA4AC54-1D78-4EED-9435-300CEC61058B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AD35411-F288-4E92-A183-300FA7D0D501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD35411-F288-4E92-A183-300FA7D0D501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD35411-F288-4E92-A183-300FA7D0D501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD35411-F288-4E92-A183-300FA7D0D501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA4AC54-1D78-4EED-9435-300CEC61058B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA4AC54-1D78-4EED-9435-300CEC61058B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA4AC54-1D78-4EED-9435-300CEC61058B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA4AC54-1D78-4EED-9435-300CEC61058B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
