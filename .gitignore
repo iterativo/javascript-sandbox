@@ -1,5 +1,4 @@
 *.suo
 *ReSharper*
-packages/
 obj/
 bin/
