@@ -1,1 +1,4 @@
 *.suo
+*ReSharper*
+packages/
+obj/
