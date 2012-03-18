@@ -8,8 +8,11 @@ namespace scratch.NHibernate
         public ISession GetSession()
         {
             var config = new Configuration();
-            config.Configure("hibernate.cfg.xml");
-            return config.BuildSessionFactory().OpenSession();
+            return config
+                .Configure("hibernate.cfg.xml")
+                .SetInterceptor(new DataBindingInterceptor())
+                .BuildSessionFactory()
+                .OpenSession();
         }
     }
 
