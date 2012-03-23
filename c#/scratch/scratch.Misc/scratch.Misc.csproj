@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="MetadataTypeStuff\Foo.cs" />
     <Compile Include="MetadataTypeStuff\IsCoolAttribute.cs" />
+    <Compile Include="MetadataTypeStuff\ReflectionHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -11,7 +11,7 @@ namespace scratch.Misc.MetadataTypeStuff
         public string UncoolProp { get; set; }
     }
 
-    public class FooMetaClass
+    internal class FooMetaClass
     {
         [IsCool]
         public string Baz;

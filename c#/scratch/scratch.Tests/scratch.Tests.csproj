@@ -70,7 +70,7 @@
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Misc\MetadataTypeStuff\ReflectionTest.cs" />
+    <Compile Include="Misc\MetadataTypeStuff\ReflectionHelperTester.cs" />
     <Compile Include="NHibernate\NHibernateTest.cs" />
   </ItemGroup>
   <ItemGroup>
