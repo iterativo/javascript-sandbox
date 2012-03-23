@@ -3,7 +3,7 @@ using scratch.NHibernate;
 using scratch.NHibernate.Entities;
 using NBehave.Spec.NUnit;
 
-namespace scratch.Tests
+namespace scratch.Tests.NHibernate
 {
     [TestFixture]
     public class NHibernateTest

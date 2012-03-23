@@ -70,9 +70,14 @@
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NHibernateTest.cs" />
+    <Compile Include="Misc\MetadataTypeStuff\ReflectionTest.cs" />
+    <Compile Include="NHibernate\NHibernateTest.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\scratch.Misc\scratch.Misc.csproj">
+      <Project>{2CAD9F37-8565-43BA-B1D9-9BDB07662EFC}</Project>
+      <Name>scratch.Misc</Name>
+    </ProjectReference>
     <ProjectReference Include="..\scratch.NHibernate\scratch.NHibernate.csproj">
       <Project>{3FA4AC54-1D78-4EED-9435-300CEC61058B}</Project>
       <Name>scratch.NHibernate</Name>

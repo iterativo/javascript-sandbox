@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scratch.Tests", "scratch.Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scratch.NHibernate", "scratch.NHibernate\scratch.NHibernate.csproj", "{3FA4AC54-1D78-4EED-9435-300CEC61058B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scratch.Misc", "scratch.Misc\scratch.Misc.csproj", "{2CAD9F37-8565-43BA-B1D9-9BDB07662EFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{3FA4AC54-1D78-4EED-9435-300CEC61058B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FA4AC54-1D78-4EED-9435-300CEC61058B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FA4AC54-1D78-4EED-9435-300CEC61058B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CAD9F37-8565-43BA-B1D9-9BDB07662EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CAD9F37-8565-43BA-B1D9-9BDB07662EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CAD9F37-8565-43BA-B1D9-9BDB07662EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CAD9F37-8565-43BA-B1D9-9BDB07662EFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
